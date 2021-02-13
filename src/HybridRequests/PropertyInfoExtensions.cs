@@ -2,7 +2,7 @@ using System.Reflection;
 
 namespace HybridRequests
 {
-    internal static class PropertyInfoExtensions
+    public static class PropertyInfoExtensions
     {
         public static void ForceStateValue(this PropertyInfo propertyInfo, object currentObject, object value)
         {
