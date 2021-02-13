@@ -2,4 +2,4 @@ bin
 obj
 
 coverage*
-icov.info
+lcov.info
