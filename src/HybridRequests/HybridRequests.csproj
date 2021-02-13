@@ -5,7 +5,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>HybridRequests</PackageId>
     <Description>Deserialize your Requests info into a single Object.</Description>
-    <Version>0.0.3-dev</Version>
+    <Version>0.0.4-dev</Version>
     <Authors>Allan Wanderley</Authors>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
