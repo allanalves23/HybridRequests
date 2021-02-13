@@ -5,8 +5,6 @@
 
 > Disclaimer: This package is not finished for production use, use it at your own risk.
 
-# HybridRequests
-
 ## Motivation
 
 This project aims to deserialize your order information into a single object. On ordinary days, join commands are required to call their respective handlers, with `put` /` patch` / `get` requests 2 or more information can be passed at the same time. Therefore, it is necessary to do:
