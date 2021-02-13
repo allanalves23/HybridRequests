@@ -4,8 +4,8 @@
     <TargetFramework>net5.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>HybridRequests</PackageId>
-    <Description>Sample description</Description>
-    <Version>0.0.2</Version>
+    <Description>Deserialize your Requests info into a single Object.</Description>
+    <Version>0.0.3-dev</Version>
     <Authors>Allan Wanderley</Authors>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
