@@ -1,0 +1,1 @@
+dotnet nuget push -s "nuget" --api-key <nuget-api-key> ./src/HybridRequests/bin/Release/*.nupkg
