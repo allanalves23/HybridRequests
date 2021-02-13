@@ -5,11 +5,15 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>HybridRequests</PackageId>
     <Description>Sample description</Description>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <Authors>Allan Wanderley</Authors>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <AssemblyName>HybridRequests</AssemblyName>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+  </ItemGroup>
 
 </Project>
