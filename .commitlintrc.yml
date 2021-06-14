@@ -1,0 +1,31 @@
+extends:
+  - '@commitlint/config-conventional'
+rules:
+  header-max-length: [1, 'always', 100]
+  type-enum:
+    - 2
+    - always
+    - - core
+      - ci
+      - feat
+      - fix
+      - docs
+      - style
+      - refactor
+      - perf
+      - test
+      - revert
+      - chore
+help: |
+  **Possible types**:
+  `core`:             Alteração de dependencia do software, alteração de ferramenta ou derivados.
+  `ci`:               Alteração relacionado ao CI - Continuous Integration.
+  `feat`:             Adiciona uma nova funcionalidade.
+  `fix`:              Corrige um bug.
+  `docs`:             Adiciona ou altera a documentação.
+  `style`:            Correções de lint / formatação de código.
+  `refactor`:         Refatoração de código sem adicionar uma funcionalidade, correção de bug ou qualquer alteração.
+  `perf`:             Melhorias de performance.
+  `test`:             Adiciona ou modifica testes automatizados.
+  `revert`:           Reverte alterações.
+  `chore`:            Destinado a alguma tarefa realizada que não é específico de uma funcionalidade ou correção e sim de uma mudança simples no software.
